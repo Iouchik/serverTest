@@ -9,7 +9,7 @@ let H = 800;
 canvas.width = W;
 canvas.height = H;
 
-const ws = new WebSocket(`ws://${window.location.host}`);
+const ws = new WebSocket(`wss://${window.location.host}`);
 ws.onopen = onopen;
 ws.onclose = onclose;
 ws.onmessage = onmessage;
