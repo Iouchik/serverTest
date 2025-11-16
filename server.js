@@ -50,5 +50,5 @@ wss.on('connection', (ws, request) => {
             bf[i * 2 + 1] = balls[i][1] - balls[clid][1] + 32768;
         }
         ws.send(bf);
-    }, 33.3);
+    }, 16.6);
 });
